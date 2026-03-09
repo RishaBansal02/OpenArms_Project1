@@ -1,0 +1,240 @@
+organization_id  name     email                  address             organization_type
+---------------  -------  ---------------------  ------------------  -----------------
+1                Meedoo   mjansen0@msu.edu       2398 Lyons Park     Government       
+2                Skimia   cjehaes1@trellian.com  691 Esker Parkway   Nonprofit        
+3                Oyoloo   qbutterley2@is.gd      74117 Rigney Point  Community        
+4                Gabspot  cbreakey3@flavors.me   9 Randy Center      Government       
+5                Cogibox  enorway4@sphinn.com    6 Bowman Drive      Healthcare       
+client_id  name                 email                            address                 date_registered
+---------  -------------------  -------------------------------  ----------------------  ---------------
+1          Hildagard Wannan     hwannan0@free.fr                 2 Veith Lane            1/25/2026      
+2          Harald Junifer       hjunifer1@spotify.com            7 7th Street            12/30/2025     
+3          Sheryl Meldon        smeldon2@goodreads.com           67 Anhalt Crossing      1/3/2026       
+4          Dale Visco           dvisco3@booking.com              29 Morrow Center        3/15/2025      
+5          Egon Makin           emakin4@alexa.com                69 Cardinal Road        3/1/2026       
+6          Henry Filpi          hfilpi5@phoca.cz                 8711 Ridge Oak Court    9/23/2025      
+7          Sheilah Swyer-Sexey  sswyersexey6@ucoz.ru             1016 Mockingbird Road   8/20/2025      
+8          Helaina Piatti       hpiatti7@deliciousdays.com       3097 Pine View Lane     6/1/2025       
+9          Samuel Minghella     sminghella8@acquirethisname.com  8 Michigan Court        10/17/2025     
+10         Alix Vedekhin        avedekhin9@cornell.edu           63148 Twin Pines Court  2/7/2026       
+case_worker_id  name                  email                       address                  phone_number
+--------------  --------------------  --------------------------  -----------------------  ------------
+1               Lanny Kores           lkores0@a8.net              4737 Forest Dale Circle  763-659-1326
+2               Titus Brash           tbrash1@oakley.com          4310 Walton Junction     194-657-6596
+3               Kevyn Trevor          ktrevor2@tripadvisor.com    0 Schurz Place           218-406-3298
+4               Orel Rosindill        orosindill3@bandcamp.com    9747 Kipling Plaza       516-797-6616
+5               Evangeline Blaiklock  eblaiklock4@macromedia.com  8 Huxley Court           949-800-4284
+staff_id  organization_id  name                   role                       email                           
+--------  ---------------  ---------------------  -------------------------  --------------------------------
+1         3                Hobart Casswell        Food Chemist               hcasswell0@adobe.com            
+2         4                Adriena Ciottoi        Environmental Specialist   aciottoi1@scientificamerican.com
+3         3                Petronille MacKissack  Staff Scientist            pmackissack2@bluehost.com       
+4         3                Ruddie Bonsey          Paralegal                  rbonsey3@nymag.com              
+5         4                Genevieve Cabral       Software Test Engineer II  gcabral4@hud.gov                
+service_id  organization_id  email                   address              phone_number
+----------  ---------------  ----------------------  -------------------  ------------
+1           2                krowbottom0@hhs.gov     601 Marquette Way    666-907-8735
+2           2                csutor1@tinypic.com     322 Red Cloud Drive  347-715-2059
+3           5                predman2@wufoo.com      032 Stuart Hill      358-676-7723
+4           3                vklimpke3@upenn.edu     3 Debs Terrace       492-198-6403
+5           4                mlyptrit4@so-net.ne.jp  6665 Bayside Avenue  513-571-9654
+case_id  client_id  case_worker_id  case_description                                              status   date_opened  date_closed
+-------  ---------  --------------  ------------------------------------------------------------  -------  -----------  -----------
+1        2          3               Duis aliquam convallis nunc. Proin at turpis a pede posuere   Closed   11/15/2025   2/1/2026   
+                                    nonummy. Integer non velit.                                                                    
+                                                                                                                                   
+                                    Donec diam neque, vestibulum eget, vulputate ut, ultrices ve                                   
+                                    l, augue. Vestibulum ante ipsum primis in faucibus orci luct                                   
+                                    us et ultrices posuere cubilia Curae; Donec pharetra, magna                                    
+                                    vestibulum aliquet ultrices, erat tortor sollicitudin mi, si                                   
+                                    t amet lobortis sapien sapien non mi. Integer ac neque.                                        
+                                                                                                                                   
+                                    Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla t                                   
+                                    ellus.                                                                                         
+
+2        1          1               Fusce consequat. Nulla nisl. Nunc nisl.                       Open     2/10/2026    4/22/2025  
+                                                                                                                                   
+                                    Duis bibendum, felis sed interdum venenatis, turpis enim bla                                   
+                                    ndit mi, in porttitor pede justo eu massa. Donec dapibus. Du                                   
+                                    is at velit eu est congue elementum.                                                           
+                                                                                                                                   
+                                    In hac habitasse platea dictumst. Morbi vestibulum, velit id                                   
+                                     pretium iaculis, diam erat fermentum justo, nec condimentum                                   
+                                     neque sapien placerat ante. Nulla justo.                                                      
+
+3        2          5               In hac habitasse platea dictumst. Morbi vestibulum, velit id  Closed   3/13/2025    3/2/2026   
+                                     pretium iaculis, diam erat fermentum justo, nec condimentum                                   
+                                     neque sapien placerat ante. Nulla justo.                                                      
+                                                                                                                                   
+                                    Aliquam quis turpis eget elit sodales scelerisque. Mauris si                                   
+                                    t amet eros. Suspendisse accumsan tortor quis turpis.                                          
+
+4        3          2               In congue. Etiam justo. Etiam pretium iaculis justo.          Pending  9/2/2025     8/10/2025  
+                                                                                                                                   
+                                    In hac habitasse platea dictumst. Etiam faucibus cursus urna                                   
+                                    . Ut tellus.                                                                                   
+                                                                                                                                   
+                                    Nulla ut erat id mauris vulputate elementum. Nullam varius.                                    
+                                    Nulla facilisi.                                                                                
+
+5        4          1               Maecenas ut massa quis augue luctus tincidunt. Nulla mollis   Open     6/6/2025     5/11/2025  
+                                    molestie lorem. Quisque ut erat.                                                               
+                                                                                                                                   
+                                    Curabitur gravida nisi at nibh. In hac habitasse platea dict                                   
+                                    umst. Aliquam augue quam, sollicitudin vitae, consectetuer e                                   
+                                    get, rutrum at, lorem.                                                                         
+                                                                                                                                   
+                                    Integer tincidunt ante vel ipsum. Praesent blandit lacinia e                                   
+                                    rat. Vestibulum sed magna at nunc commodo placerat.                                            
+
+6        2          1               Donec diam neque, vestibulum eget, vulputate ut, ultrices ve  Pending  12/21/2025   3/31/2025  
+                                    l, augue. Vestibulum ante ipsum primis in faucibus orci luct                                   
+                                    us et ultrices posuere cubilia Curae; Donec pharetra, magna                                    
+                                    vestibulum aliquet ultrices, erat tortor sollicitudin mi, si                                   
+                                    t amet lobortis sapien sapien non mi. Integer ac neque.                                        
+
+7        2          5               Maecenas ut massa quis augue luctus tincidunt. Nulla mollis   Closed   9/2/2025     8/9/2025   
+                                    molestie lorem. Quisque ut erat.                                                               
+
+8        5          1               Morbi non lectus. Aliquam sit amet diam in magna bibendum im  Open     10/3/2025    8/11/2025  
+                                    perdiet. Nullam orci pede, venenatis non, sodales sed, tinci                                   
+                                    dunt eu, felis.                                                                                
+                                                                                                                                   
+                                    Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut,                                   
+                                     rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel s                                   
+                                    em.                                                                                            
+                                                                                                                                   
+                                    Sed sagittis. Nam congue, risus semper porta volutpat, quam                                    
+                                    pede lobortis ligula, sit amet eleifend pede libero quis orc                                   
+                                    i. Nullam molestie nibh in lectus.                                                             
+
+9        4          1               Cras non velit nec nisi vulputate nonummy. Maecenas tincidun  Pending  11/13/2025   1/3/2026   
+                                    t lacus at velit. Vivamus vel nulla eget eros elementum pell                                   
+                                    entesque.                                                                                      
+                                                                                                                                   
+                                    Quisque porta volutpat erat. Quisque erat eros, viverra eget                                   
+                                    , congue eget, semper rutrum, nulla. Nunc purus.                                               
+                                                                                                                                   
+                                    Phasellus in felis. Donec semper sapien a libero. Nam dui.                                     
+
+10       3          3               Duis consequat dui nec nisi volutpat eleifend. Donec ut dolo  Open     4/9/2025     9/30/2025  
+                                    r. Morbi vel lectus in quam fringilla rhoncus.                                                 
+referral_id  case_id  service_id  referral_date  address               phone_number
+-----------  -------  ----------  -------------  --------------------  ------------
+1            5        4           3/18/2025      6339 Darwin Circle    147-958-3064
+2            8        5           7/11/2025      63435 Lillian Avenue  178-432-8628
+3            3        4           8/1/2025       41364 Lunder Road     740-189-9717
+4            2        1           10/16/2025     15 Maywood Court      510-160-7565
+5            5        3           10/5/2025      3142 Onsgard Parkway  243-984-8621
+6            4        1           8/12/2025      3587 Pawling Alley    652-384-2901
+7            7        3           2/4/2026       9213 Kim Hill         698-724-0670
+8            6        3           6/2/2025       76 Paget Court        730-559-7689
+9            5        2           8/5/2025       3 Drewry Road         890-689-0095
+10           3        2           2/7/2026       83 Mockingbird Way    516-968-6241
+appointment_id  client_id  staff_id  service_id  appointment_date_time  appointment_type  status     phone_number
+--------------  ---------  --------  ----------  ---------------------  ----------------  ---------  ------------
+1               2          5         4           5/29/2025              Emergency         Completed  556-270-9454
+2               3          4         5           9/4/2025               Follow-up         Scheduled  921-486-0137
+3               9          3         4           6/19/2025              Follow-up         Scheduled  415-561-0112
+4               10         3         3           11/1/2025              Consultation      Completed  576-968-1257
+5               3          2         5           7/30/2025              Emergency         Cancelled  639-185-3939
+6               1          3         1           9/2/2025               Consultation      Cancelled  173-387-6535
+7               7          5         4           6/30/2025              Follow-up         Cancelled  507-151-4068
+8               4          5         4           3/9/2025               Emergency         Cancelled  549-969-9848
+9               1          4         3           3/3/2026               Follow-up         Scheduled  401-723-9087
+10              7          3         1           7/30/2025              Follow-up         Completed  835-211-8419
+service_id  shelter_address         shelter_capacity  current_occupancy  max_stay_duration
+----------  ----------------------  ----------------  -----------------  -----------------
+1           4527 Nancy Terrace      70                21                 53               
+2           63 Delladonna Crossing  162               32                 44               
+3           7190 Straubel Alley     165               26                 24               
+4           0616 Thompson Circle    129               42                 32               
+5           5 Hagan Trail           165               14                 48               
+service_id  counseling_type  session_length  session_format  license_required
+----------  ---------------  --------------  --------------  ----------------
+1           Trauma           70              Hybrid          Yes             
+2           Trauma           82              In Person       Yes             
+3           Hardship         63              In Person       No              
+4           Hardship         78              In Person       Yes             
+5           Hardship         70              Online          Yes             
+note_id  appointment_id  note_text                                                     created_date
+-------  --------------  ------------------------------------------------------------  ------------
+1        6               Proin interdum mauris non ligula pellentesque ultrices. Phas  3/21/2025   
+                         ellus id sapien in sapien iaculis congue. Vivamus metus arcu              
+                         , adipiscing molestie, hendrerit at, vulputate vitae, nisl.               
+                                                                                                   
+                         Aenean lectus. Pellentesque eget nunc. Donec quis orci eget               
+                         orci vehicula condimentum.                                                
+                                                                                                   
+                         Curabitur in libero ut massa volutpat convallis. Morbi odio               
+                         odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas              
+                          pulvinar lobortis est.                                                   
+
+2        5               Praesent id massa id nisl venenatis lacinia. Aenean sit amet  6/10/2025   
+                          justo. Morbi ut odio.                                                    
+
+3        6               Nulla ut erat id mauris vulputate elementum. Nullam varius.   6/24/2025   
+                         Nulla facilisi.                                                           
+                                                                                                   
+                         Cras non velit nec nisi vulputate nonummy. Maecenas tincidun              
+                         t lacus at velit. Vivamus vel nulla eget eros elementum pell              
+                         entesque.                                                                 
+                                                                                                   
+                         Quisque porta volutpat erat. Quisque erat eros, viverra eget              
+                         , congue eget, semper rutrum, nulla. Nunc purus.                          
+
+4        5               Nullam porttitor lacus at turpis. Donec posuere metus vitae   6/11/2025   
+                         ipsum. Aliquam non mauris.                                                
+                                                                                                   
+                         Morbi non lectus. Aliquam sit amet diam in magna bibendum im              
+                         perdiet. Nullam orci pede, venenatis non, sodales sed, tinci              
+                         dunt eu, felis.                                                           
+
+5        8               Suspendisse potenti. In eleifend quam a odio. In hac habitas  7/5/2025    
+                         se platea dictumst.                                                       
+
+6        4               Duis consequat dui nec nisi volutpat eleifend. Donec ut dolo  12/14/2025  
+                         r. Morbi vel lectus in quam fringilla rhoncus.                            
+                                                                                                   
+                         Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id              
+                         , turpis. Integer aliquet, massa id lobortis convallis, tort              
+                         or risus dapibus augue, vel accumsan tellus nisi eu orci. Ma              
+                         uris lacinia sapien quis libero.                                          
+
+7        7               In hac habitasse platea dictumst. Morbi vestibulum, velit id  2/16/2026   
+                          pretium iaculis, diam erat fermentum justo, nec condimentum              
+                          neque sapien placerat ante. Nulla justo.                                 
+
+8        10              Sed sagittis. Nam congue, risus semper porta volutpat, quam   6/12/2025   
+                         pede lobortis ligula, sit amet eleifend pede libero quis orc              
+                         i. Nullam molestie nibh in lectus.                                        
+                                                                                                   
+                         Pellentesque at nulla. Suspendisse potenti. Cras in purus eu              
+                          magna vulputate luctus.                                                  
+
+9        5               Sed sagittis. Nam congue, risus semper porta volutpat, quam   9/30/2025   
+                         pede lobortis ligula, sit amet eleifend pede libero quis orc              
+                         i. Nullam molestie nibh in lectus.                                        
+                                                                                                   
+                         Pellentesque at nulla. Suspendisse potenti. Cras in purus eu              
+                          magna vulputate luctus.                                                  
+                                                                                                   
+                         Cum sociis natoque penatibus et magnis dis parturient montes              
+                         , nascetur ridiculus mus. Vivamus vestibulum sagittis sapien              
+                         . Cum sociis natoque penatibus et magnis dis parturient mont              
+                         es, nascetur ridiculus mus.                                               
+
+10       4               In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis to  3/26/2025   
+                         rtor id nulla ultrices aliquet.                                           
+schedule_id  service_id  day_of_week  start_time  end_time
+-----------  ----------  -----------  ----------  --------
+1            2           3/7/2026     7:01 PM     3:36 PM 
+2            1           3/27/2025    2:24 PM     4:17 PM 
+3            5           8/8/2025     9:08 PM     8:03 PM 
+4            3           4/29/2025    2:08 PM     7:55 PM 
+5            2           1/30/2026    1:27 PM     12:32 PM
+6            1           7/29/2025    5:03 PM     4:21 PM 
+7            2           4/30/2025    10:07 AM    6:12 PM 
+8            4           5/28/2025    9:02 PM     1:31 PM 
+9            3           3/28/2025    11:24 AM    10:16 AM
+10           1           3/9/2025     8:07 AM     4:35 AM 
